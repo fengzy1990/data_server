@@ -19,7 +19,7 @@ public class DBconn {
 
 		try {
 			driver = "com.mysql.jdbc.Driver";
-			url = "jdbc:mysql://localhost:3306/ahlt?useUnicode=true&characterEncoding=utf-8";
+			url = "jdbc:mysql://localhost:3306/data_server?useUnicode=true&characterEncoding=utf-8";
 			username = "root";
 			password = "DatabaseSql";
 			Class.forName(driver);
